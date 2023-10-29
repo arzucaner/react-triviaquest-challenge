@@ -23,15 +23,19 @@ const Quiz = () => {
 
     return (
         <div className='quiz'>
-            <QuestionCard
-                questionsData={questionsData}
-                score={score}
-                setScore={setScore}
-                count={count}
-                setCount={setCount}
-                modal={modal}
-                setModal={setModal}
-            />
+            {
+                modal ? <Modal score={score}/> :
+
+                    <QuestionCard
+                        questionsData={questionsData}
+                        score={score}
+                        setScore={setScore}
+                        count={count}
+                        setCount={setCount}
+                        modal={modal}
+                        setModal={setModal}
+                    />
+            }
         </div>
     )
 }

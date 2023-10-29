@@ -13,6 +13,7 @@ const QuestionCard = ({ questionsData, score, setScore, count, setCount, modal, 
     }
     setCount(count + 1)
     if (count == 9) setModal(true)
+    setTimer(30)
   }
 
   useEffect(() => {
@@ -28,6 +29,10 @@ const QuestionCard = ({ questionsData, score, setScore, count, setCount, modal, 
         setModal(true)
       }
     }, 1000)
+
+    return () => {
+      clearInterval(interval)
+    }
   }, [timer])
 
   return (
