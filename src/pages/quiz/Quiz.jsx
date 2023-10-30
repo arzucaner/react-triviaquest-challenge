@@ -24,7 +24,7 @@ const Quiz = () => {
     return (
         <div className='quiz'>
             {
-                modal ? <Modal score={score}/> :
+                modal ? <modal score={score}/> :
 
                     <QuestionCard
                         questionsData={questionsData}
