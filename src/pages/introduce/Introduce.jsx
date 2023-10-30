@@ -8,9 +8,6 @@ const Introduce = () => {
     const [difficultyChange, setDifficultyChange] = useState('')
     const navigate = useNavigate()
     const TOTAL_QUESTIONS = 10
-
-    console.log(difficultyChange, "difficultyChange");
-
     const startQuiz = () => {
         if (difficultyChange) {
             navigate(`/quiz/${difficultyChange}/${TOTAL_QUESTIONS}`)

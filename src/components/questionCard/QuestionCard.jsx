@@ -39,7 +39,7 @@ const QuestionCard = ({ questionsData, score, setScore, count, setCount, modal, 
   return (
     <div className='questionCard'>
       <div className='questionCard-timer'>{timer}</div>
-      <div className='questionCard-title'>{count + 1} /10/ {questionsData.length} -{questionsData[count]?.question}</div>
+      <div className='questionCard-title'>{count + 1} /10 {questionsData[count]?.question}</div>
       {questionsData[count]?.answers?.map((answer, i) => (
         <button key={i} onClick={approvedChoice} value={answer}>{answer}</button>
       ))}

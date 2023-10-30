@@ -16,7 +16,6 @@ const Quiz = () => {
         const getData = async () => {
             try {
                 const data = await api.fetchQuizData(difficulty, amount);
-                console.log(data);
                 setQuestionsData(data);
             } catch (error) {
                 console.error("Error fetching data:", error);
