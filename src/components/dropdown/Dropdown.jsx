@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './Dropdown.css'
 
 const Dropdown = ({ data, setDifficultyChange }) => {
@@ -7,7 +7,7 @@ const Dropdown = ({ data, setDifficultyChange }) => {
       <select onChange={e => setDifficultyChange(e.target.value)} name="" id="">
         {
           data.map((dt, i) => (
-            <option value={dt}>{dt}</option>
+            <option key={i} value={dt}>{dt}</option>
           ))
         }
       </select>
@@ -15,4 +15,4 @@ const Dropdown = ({ data, setDifficultyChange }) => {
   )
 }
 
-export default Dropdown;
+export default Dropdown

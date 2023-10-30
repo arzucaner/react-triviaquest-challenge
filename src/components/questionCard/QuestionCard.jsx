@@ -41,7 +41,7 @@ const QuestionCard = ({ questionsData, score, setScore, count, setCount, modal, 
       <div className='questionCard-title'>{count + 1} /10/ - {questionsData[count]?.question}</div>
       {
         questionsData[count]?.answers?.map((answer, i) => (
-          <button onClick={approvedChoice} key={i} value={answer}>{answer}</button>
+          <button key={i} onClick={approvedChoice} value={answer}>{answer}</button>
         ))
       }
     </div>

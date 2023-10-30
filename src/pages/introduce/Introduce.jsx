@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import Dropdown from '../../components/dropdown/Dropdown'
 import './Introduce.css'
 import { useNavigate } from 'react-router-dom'
