@@ -1,18 +1,18 @@
-import React, { useState } from 'react'
-import Dropdown from '../../components/dropdown/Dropdown'
-import './Introduce.css'
-import { useNavigate } from 'react-router-dom'
+import React, { useState } from 'react';
+import Dropdown from '../../components/dropdown/Dropdown';
+import './Introduce.css';
+import { useNavigate } from 'react-router-dom';
 
 const Introduce = () => {
-    const difficulty = ["Easy", "Medium", "Hard"]
-    const [difficultyChange, setDifficultyChange] = useState('')
-    const navigate = useNavigate()
-    const TOTAL_QUESTIONS = 10
+    const difficulty = ["Easy", "Medium", "Hard"];
+    const [difficultyChange, setDifficultyChange] = useState('Easy');
+    const navigate = useNavigate();
+    const TOTAL_QUESTIONS = 10;
     const startQuiz = () => {
         if (difficultyChange) {
-            navigate(`/quiz/${difficultyChange}/${TOTAL_QUESTIONS}`)
+            navigate(`/quiz/${difficultyChange}/${TOTAL_QUESTIONS}`);
         }
-    }
+    };
     return (
         <div className='introduce'>
             <div className="introduce-container">
@@ -21,7 +21,7 @@ const Introduce = () => {
                 <div onClick={startQuiz} className='introduce-btn'> Start Quiz</div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Introduce
+export default Introduce;
