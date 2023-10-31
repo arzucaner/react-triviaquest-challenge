@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# React TriviaQuest Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React TriviaQuest Challenge is an interactive trivia quiz application developed using React. This project provides users with a fun experience to test their general knowledge and information.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+* [Description](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#description)
+* [Demo](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#demo)
+* [Features](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#features)
+* [Installation](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#installation)
+* [Usage](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#usage)
+* [Screenshots](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#screenshots)
+* [Contributing](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#contributing)
+* [License](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#license)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The React TriviaQuest Challenge is an interactive quiz application developed using React. This quiz consists of a wide range of general knowledge questions, organized into three levels of difficulty: easy, medium, and high. Users can test their knowledge by answering multiple-choice questions that gradually increase in complexity.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The quiz imposes a time limit of 30 seconds for each question. If a user fails to select an answer within the given time frame, the application automatically proceeds to the next question. At the end of the quiz, users receive their score and have the option to start a new round with fresh questions.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Three levels of difficulty: easy, medium, and high.
+* General knowledge questions of increasing complexity.
+* 30-second time limit per question.
+* Automatic progression to the next question if no answer is selected.
+* Score calculation and the ability to start a new round.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1) Clone the repository to your local machine:
 
-### `npm run eject`
+```
+git clone https://github.com/arzucaner/react-triviaquest-challenge.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+cd React-TriviaQuest-Challenge
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the required dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+4. Start the application:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+1. Launch the application by following the installation instructions.
+2. Select your desired difficulty level (easy, medium, or high).
+3. Answer the multiple-choice questions within the 30-second time limit.
+4. Receive your final score at the end of the quiz.
+5. Choose to start a new round to test your knowledge again.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](https://chat.openai.com/c/CONTRIBUTING.md) to contribute to this project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Deployment
 
-### Making a Progressive Web App
+This section has moved here: [react-triviaquest-challenge.netlify.app/](https://react-triviaquest-challenge.netlify.app/ "https://react-triviaquest-challenge.netlify.app/")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE.md](https://chat.openai.com/c/LICENSE.md) file for details.
