@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './Modal.css';
 
 const Modal = ({ score }) => {
@@ -10,4 +10,4 @@ const Modal = ({ score }) => {
   )
 }
 
-export default Modal
+export default Modal;
