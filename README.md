@@ -65,7 +65,18 @@ npm start
 
 ## Contributing
 
-Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](https://chat.openai.com/c/CONTRIBUTING.md) to contribute to this project.
+I welcome and appreciate contributions from the community. If you're interested in contributing to this project, please follow these guidelines:
+
+1. **Fork** the project repository on GitHub.
+2. **Clone** your fork to your local machine.
+3. Create a new **branch** for your feature or bug fix.
+4. Make your changes and ensure that your code is properly formatted.
+5. Write **tests** to ensure the code's integrity.
+6. Commit your changes with a  **clear and descriptive message** .
+7. Push your branch to your fork on GitHub.
+8. Create a **pull request** to the original repository.
+
+Thank you for helping make this project better!
 
 ## Deployment
 
@@ -73,4 +84,4 @@ This section has moved here: [react-triviaquest-challenge.netlify.app/](https://
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://chat.openai.com/c/LICENSE.md) file for details.
+This project is licensed under the MIT License.
