@@ -4,14 +4,13 @@ React TriviaQuest Challenge is an interactive trivia quiz application developed 
 
 ## Table of Contents
 
-* [Description](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#description)
-* [Demo](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#demo)
-* [Features](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#features)
-* [Installation](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#installation)
-* [Usage](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#usage)
-* [Screenshots](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#screenshots)
-* [Contributing](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#contributing)
-* [License](https://chat.openai.com/c/042163e4-bb06-4aa9-b71e-0afca71ac275#license)
+* Description
+* Demo
+* Features
+* Installation
+* Usage
+* Contributing
+* License
 
 ## Description
 
