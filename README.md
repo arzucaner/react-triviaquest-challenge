@@ -2,6 +2,8 @@
 
 React TriviaQuest Challenge is an interactive trivia quiz application developed using React. This project provides users with a fun experience to test their general knowledge and information.
 
+![1699429057578](image/README/1699429057578.png)
+
 ## Table of Contents
 
 * Description
